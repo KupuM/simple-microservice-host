@@ -19,8 +19,18 @@ export const MainPage = ({ title, content, subtitle }) => {
                     может быть любым и зависит от архитектуры приложения.
                 </p>
                 <p>Ссылки на репозитории:</p>
-                <p>Модуль host: https://github.com/KupuM/simple-microservice-host</p>
-                <p>Модуль catalog: https://github.com/KupuM/simple-microservice-catalog</p>
+                <p>
+                    Модуль host:
+                    <a href="https://github.com/KupuM/simple-microservice-host" target="_blank">
+                        https://github.com/KupuM/simple-microservice-host
+                    </a>
+                </p>
+                <p>
+                    Модуль catalog:
+                    <a href="https://github.com/KupuM/simple-microservice-catalog" target="_blank">
+                        https://github.com/KupuM/simple-microservice-catalog
+                    </a>
+                </p>
             </section>
         </article>
     );
