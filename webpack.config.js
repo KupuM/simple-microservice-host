@@ -50,7 +50,7 @@ module.exports = {
         new ModuleFederationPlugin({
             name: "Host",
             remotes: {
-                Catalog: "Catalog@http://localhost:3052/catalog.js",
+                Catalog: "Catalog@https://simple-microservice-catalog.netlify.app/catalog.js",
             },
         }),
     ],
